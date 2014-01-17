@@ -36,58 +36,59 @@
     <div>
     <div class="container-fluid">
       <h1>Hanno trovato casa</h1>
-    	<div class="row">
-	  <div class="span4 well small">
-	    <h2>Alba</h2>
-	    <img src="img/Alba_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Poldo</h2>
-	    <img src="img/Poldo_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Rico</h2>
-	    <img src="img/Rico_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Gigi</h2>
-	    <img src="img/Gigi_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Marton</h2>
-	    <img src="img/Marton_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Rodolph</h2>
-	    <img src="img/Rodolph_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Feo</h2>
-	    <img src="img/Feo_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Jack</h2>
-	    <img src="img/Jack_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Eddy</h2>
-	    <img src="img/Eddy_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Feo</h2>
-	    <img src="img/Feo_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Jack</h2>
-	    <img src="img/Jack_big.jpg" class="img-rounded"/>
-	  </div>
-	  <div class="span4 well small">
-	    <h2>Eddy</h2>
-	    <img src="img/Eddy_big.jpg" class="img-rounded"/>
-	  </div>
-	</div>	
+        <div class="row">
+          <div class="span4 well small">
+            <h2>Nage</h2>
+            <img src="img/Nage_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Poldo</h2>
+            <img src="img/Poldo_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Rico</h2>
+            <img src="img/Rico_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Gigi</h2>
+            <img src="img/Gigi_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Sofia</h2>
+            <img src="img/Sofia_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Sissy</h2>
+            <img src="img/Sissi_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Daggy</h2>
+            <img src="img/Daggy_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Jack</h2>
+            <img src="img/Jack_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Tepa</h2>
+            <img src="img/Tepa_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Ugo</h2>
+            <img src="img/Ugo_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Tonno</h2>
+            <img src="img/Tonno_big.jpg" class="img-rounded"/>
+          </div>
+          <div class="span4 well small">
+            <h2>Mia</h2>
+            <img src="img/Mia_big.jpg" class="img-rounded"/>
+          </div>
+        </div>
       <hr>
 
+      <div>E molti, molti altri...</div>
       <?php include 'footer.php'; ?>
 
     </div>

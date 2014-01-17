@@ -29,40 +29,40 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>    
+  <body>
     <div class="container margin">
       <?php include 'header.php'; ?>
-      <img src="img/fiori.jpg" class="img-rounded"/>
+      <img src="img/contact.jpg" class="img-rounded"/>
     <div>
     <div class="container-fluid">
     <div class="row-fluid">
-      
+
     <div class="span2 bs-docs-sidebar">
       <?php include 'menu.php'; ?>
     </div>
     <div class="span10">
       <div class="well well-large well-green margin">
-	<h5>
-	  Se hai bisogno di informazioni o vuoi diventare un volontario,
-	  oppure vuoi adottare uno dei nostri dolcissimi amici,
-	  contattaci.
-	</h5>
+        <h5>
+          Se hai bisogno di informazioni o vuoi diventare un volontario,
+          oppure vuoi adottare uno dei nostri dolcissimi amici,
+          contattaci.
+        </h5>
       </div>
-      <dl class="dl-horizontal"> 
-	<dt>email</dt>
-	<dd>info@protezioneanimali.tn.it</dd><br/>
-	<dt>telefono</dt>
-	<dd>Candioli Aldo (responsabile): 339-4141717</dd>
-	<dd>Tiziana (per adozioni e volontariato): 340-9048682</dd><br/>
-	<dt>di persona</dt>
-	<dd><br/>
-	  <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=45.875145,11.024905&amp;aq=&amp;sll=45.875145,11.024905&amp;sspn=0.007709,0.01929&amp;ie=UTF8&amp;t=m&amp;ll=45.875131,11.024866&amp;spn=0.014342,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small><a href="https://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=45.875145,11.024905&amp;aq=&amp;sll=45.875145,11.024905&amp;sspn=0.007709,0.01929&amp;ie=UTF8&amp;t=m&amp;ll=45.875131,11.024866&amp;spn=0.014342,0.027466&amp;z=15" style="color:#0000FF;text-align:left">Visualizzazione ingrandita della mappa</a></small></dd>
+      <dl class="dl-horizontal">
+        <dt>email</dt>
+        <dd>info@protezioneanimali.tn.it</dd><br/>
+        <dt>telefono</dt>
+        <dd>Candioli Aldo (responsabile): 339-4141717</dd>
+        <dd>Tiziana (per adozioni e volontariato): 340-9048682</dd><br/>
+        <dt>di persona</dt>
+        <dd><br/>
+          <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=45.875145,11.024905&amp;aq=&amp;sll=45.875145,11.024905&amp;sspn=0.007709,0.01929&amp;ie=UTF8&amp;t=m&amp;ll=45.875131,11.024866&amp;spn=0.014342,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small><a href="https://maps.google.it/maps?f=q&amp;source=embed&amp;hl=it&amp;geocode=&amp;q=45.875145,11.024905&amp;aq=&amp;sll=45.875145,11.024905&amp;sspn=0.007709,0.01929&amp;ie=UTF8&amp;t=m&amp;ll=45.875131,11.024866&amp;spn=0.014342,0.027466&amp;z=15" style="color:#0000FF;text-align:left">Visualizzazione ingrandita della mappa</a></small></dd>
       </dl>
       </div>
     </div>
     </div>
     </div>
-      
+
       <hr>
       <?php include 'footer.php'; ?>
       </footer>

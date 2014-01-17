@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -35,33 +35,33 @@
   </head>
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Marton</h1>
-	<img id="bigimage" src="img/marton1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Marton</h1>
+        <img id="bigimage" src="img/marton1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/marton1.jpg" height="90" width="120" alt="camera" onclick="changeImage('marton1')"/>
-	<img src="img/marton2.jpg" height="90" width="120" alt="camera" onclick="changeImage('marton2')"/>
-	<img src="img/marton3.jpg" height="90" width="120" alt="camera" onclick="changeImage('marton3')"/>
-	<hr>
+        <img src="img/marton1.jpg" height="90" width="120" alt="camera" onclick="changeImage('marton1')"/>
+        <img src="img/marton2.jpg" height="90" width="120" alt="camera" onclick="changeImage('marton2')"/>
+        <img src="img/marton3.jpg" height="90" width="120" alt="camera" onclick="changeImage('marton3')"/>
+        <hr>
 
-	<div>Giovane incrocio lupo/husky. <br/>
-	  Nato nel maggio 2011, attualmente è in fase di recupero per
-	  via della sua timidezza. E' pauroso ma anche molto dolce.
-	  Necessita di preadozione e pazienza.
+        <div>Giovane incrocio lupo/husky. <br/>
+          Nato nel maggio 2011, attualmente è in fase di recupero per
+          via della sua timidezza. E' pauroso ma anche molto dolce.
+          Necessita di preadozione e pazienza.
           Starebbe bene in giardino, o comunque all'esterno ma
-	  dev'essere un posto tranquillo, preferibilmente non in città.
+          dev'essere un posto tranquillo, preferibilmente non in città.
           Adatto a famiglie anche con bambini. L'importante è che sia
-	  rispettato.
-	  E' stato ritrovato assieme al fratello Rodolph, fino al
-	  ritrovamento hanno vissuto allo stato selvatico, per questo
-	  &egrave; diffidente nei confronti degli esseri umani.
-	  Essendo molto giovane sar&agrave; scuramente recuperato.
-	</div>
+          rispettato.
+          E' stato ritrovato assieme al fratello Rodolph, fino al
+          ritrovamento hanno vissuto allo stato selvatico, per questo
+          &egrave; diffidente nei confronti degli esseri umani.
+          Essendo molto giovane sar&agrave; scuramente recuperato.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

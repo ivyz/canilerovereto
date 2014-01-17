@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,31 +36,31 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Alba</h1>
-	<img id="bigimage" src="img/alba1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Alba</h1>
+        <img id="bigimage" src="img/alba1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/alba1.jpg" height="90" width="120" alt="camera" onclick="changeImage('alba1')"/>
-	<img src="img/alba2.jpg" height="90" width="120" alt="camera" onclick="changeImage('alba2')"/>
-	<img src="img/alba3.jpg" height="90" width="120" alt="camera" onclick="changeImage('alba3')"/>
-	<hr>
+        <img src="img/alba1.jpg" height="90" width="120" alt="camera" onclick="changeImage('alba1')"/>
+        <img src="img/alba2.jpg" height="90" width="120" alt="camera" onclick="changeImage('alba2')"/>
+        <img src="img/alba3.jpg" height="90" width="120" alt="camera" onclick="changeImage('alba3')"/>
+        <hr>
 
-	<div>Meticcio incrocio Labrador di 4 anni. <br/>
-	  Nata verso la metà del 2008. E' paurosa ed ansiosa e per
-	  questo è in fase di recupero, con buoni risultati.
-	  Timida e diffidente con le persone necessita di contatto
-	  con altri cani.
-	  Ambiente consigliato: L'ideale per lei sarebbe un posto
-	  tranquillo preferibilmente lontano dai rumori della città.
-	  Vive sia in casa che in giardino.
-	  Famiglia consigliata: Adatta a famiglie non numerose per
-	  via della sua difficolt&agrave; di socializzazione.
-	</div>
+        <div>Meticcio incrocio Labrador di 4 anni. <br/>
+          Nata verso la metà del 2008. E' paurosa ed ansiosa e per
+          questo è in fase di recupero, con buoni risultati.
+          Timida e diffidente con le persone necessita di contatto
+          con altri cani.
+          Ambiente consigliato: L'ideale per lei sarebbe un posto
+          tranquillo preferibilmente lontano dai rumori della città.
+          Vive sia in casa che in giardino.
+          Famiglia consigliata: Adatta a famiglie non numerose per
+          via della sua difficolt&agrave; di socializzazione.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>
