@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,29 +36,29 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Bonnie</h1>
-	<img id="bigimage" src="img/bonnie1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Bonnie</h1>
+        <img id="bigimage" src="img/bonnie1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/bonnie1.jpg" height="90" width="120" alt="camera" onclick="changeImage('bonnie1')"/>
-	<img src="img/bonnie2.jpg" height="90" width="120" alt="camera" onclick="changeImage('bonnie2')"/>
-	<img src="img/bonnie3.jpg" height="90" width="120" alt="camera" onclick="changeImage('bonnie3')"/>
-	<hr>
+        <img src="img/bonnie1.jpg" height="90" width="120" alt="camera" onclick="changeImage('bonnie1')"/>
+        <img src="img/bonnie2.jpg" height="90" width="120" alt="camera" onclick="changeImage('bonnie2')"/>
+        <img src="img/bonnie3.jpg" height="90" width="120" alt="camera" onclick="changeImage('bonnie3')"/>
+        <hr>
 
-	<div>Pitbull<br/>
-	  Bonnie a dispetto della nomea della razza è dolce ed
-	  affettuosa, ma anche furba.
-	  Adatta a persone giovani e dinamiche. Non deve essere
-	  adottata con l'intento di utilizzarla come cane da guardia.
-	  Si cede solo a persone consapevoli della razza e che la
-	  sanno gestire. Non adatta ad anziani e bambini piccoli.
-	  Pu&ograve; vivere benissimo in casa.
-	</div>
+        <div>Pitbull<br/>
+          Bonnie a dispetto della nomea della razza è dolce ed
+          affettuosa, ma anche furba.
+          Adatta a persone giovani e dinamiche. Non deve essere
+          adottata con l'intento di utilizzarla come cane da guardia.
+          Si cede solo a persone consapevoli della razza e che la
+          sanno gestire. Non adatta ad anziani e bambini piccoli.
+          Pu&ograve; vivere benissimo in casa.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

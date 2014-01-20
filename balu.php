@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,29 +36,29 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Balu</h1>
-	<img id="bigimage" src="img/balu1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Balu</h1>
+        <img id="bigimage" src="img/balu1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/balu1.jpg" height="90" width="120" alt="camera" onclick="changeImage('balu1')"/>
-	<img src="img/balu2.jpg" height="90" width="120" alt="camera" onclick="changeImage('balu2')"/>
-	<img src="img/balu3.jpg" height="90" width="120" alt="camera" onclick="changeImage('balu3')"/>
-	<hr>
+        <img src="img/balu1.jpg" height="90" width="120" alt="camera" onclick="changeImage('balu1')"/>
+        <img src="img/balu2.jpg" height="90" width="120" alt="camera" onclick="changeImage('balu2')"/>
+        <img src="img/balu3.jpg" height="90" width="120" alt="camera" onclick="changeImage('balu3')"/>
+        <hr>
 
-	<div>Grande labrador<br/>
-	  Buono ed affettuoso, ma ossessivamente possessivo con
-	  oggetti e cibo. Specialmente con il suo pupazzetto di Pluto.
+        <div>Grande labrador<br/>
+          Buono ed affettuoso, ma ossessivamente possessivo con
+          oggetti e cibo. Specialmente con il suo pupazzetto di Pluto.
           Non pi&ugrave; giovanissimo (nael nel 2005) sta meglio al
-	  calduccio di una casa.
-	  Non adatto a bambini ed anziani anche se molto bravo in passeggiata.
-	  Necessita sicuramente di incontri conoscitivi perch&egrave;
-	  non &egrave; particolarmente disposto a lasciare il canile.
-	</div>
+          calduccio di una casa.
+          Non adatto a bambini ed anziani anche se molto bravo in passeggiata.
+          Necessita sicuramente di incontri conoscitivi perch&egrave;
+          non &egrave; particolarmente disposto a lasciare il canile.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

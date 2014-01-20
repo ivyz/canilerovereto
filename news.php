@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Canile PAN EPPAA - Poldo</title>
+    <title>Canile PAN EPPAA - Rovereto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -15,16 +15,12 @@
       padding-bottom: 40px;
       }
     </style>
+    <link href="css/custom-style.css" rel="stylesheet">
+
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-    function changeImage(image)	{
-        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
-    }
-    </script>
-
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="../assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
@@ -34,26 +30,34 @@
   </head>
 
   <body>
-      <div class="container">
-        <?php include 'header.php'; ?>
-        <h1 class="title">Gennaro</h1>
-        <img id="bigimage" src="img/gennaro1.jpg" height="330" width="550" alt="camera"/>
+    <div class="container margin">
+      <?php include 'header.php'; ?>
+      <img src="img/news.png" class="img-rounded"/>
+      <div>
+        <div class="container-fluid">
+          <h1>NEWS</h1>
 
-        <img src="img/gennaro1.jpg" height="90" width="120" alt="camera" onclick="changeImage('gennaro1')"/>
-        <img src="img/gennaro2.jpg" height="90" width="120" alt="camera" onclick="changeImage('gennaro2')"/>
-        <img src="img/gennaro3.jpg" height="90" width="120" alt="camera" onclick="changeImage('gennaro3')"/>
-        <hr>
+          <div class="row">
+            <div class="span7">
+              <h3>[news title]</h3>
+            </div>
+            <div class="span4 date">[news date]</div>
+          </div>
+          <div class="row">
+            <div class="span3">
+              <img src="img/news" class="img-rounded" alt="[news img]"/>
+            </div>
+            <div class="span7">
+              <br/>
+              [News text]
+            </div>
+          </div>
 
-        <div> Il suo pregio pi&ugrave; grande &egrave; sicuramente l'ordine!
-          Mai una coperta fuori posto nel suo box! Bisogni il pi&ugrave; possibile vicini
-          all'uscita! E' un cane pulito lui! Per questo non dovrebbe dare alcun
-          problema in appartamento! E' nato circa nel 2011.
+          <hr>
+
+          <?php include 'footer.php'; ?>
+
         </div>
-
-        <hr>
-
-      <?php include 'footer.php'; ?>
-
-        </div>
+      </div>
   </body>
 </html>

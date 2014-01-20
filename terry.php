@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,31 +36,31 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Terry</h1>
-	<img id="bigimage" src="img/terry1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Terry</h1>
+        <img id="bigimage" src="img/terry1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/terry1.jpg" height="90" width="120" alt="camera" onclick="changeImage('terry1')"/>
-	<img src="img/terry2.jpg" height="90" width="120" alt="camera" onclick="changeImage('terry2')"/>
-	<img src="img/terry3.jpg" height="90" width="120" alt="camera" onclick="changeImage('terry3')"/>
-	<hr>
+        <img src="img/terry1.jpg" height="90" width="120" alt="camera" onclick="changeImage('terry1')"/>
+        <img src="img/terry2.jpg" height="90" width="120" alt="camera" onclick="changeImage('terry2')"/>
+        <img src="img/terry3.jpg" height="90" width="120" alt="camera" onclick="changeImage('terry3')"/>
+        <hr>
 
-	<div>Labrador miele<br/>
-	  Nato nel 2011 quindi giovanissimo, molto dolce ed affettuoso
-	  come tutti i labrador. E' adatto a persone dinamiche
-	  perch&egrave; ama le lunghe passeggiate e ha bisogno di
-	  sfogare la sua esuberanza.
-	  Ho solo bisogno di essere educato a non tirare durante le
-	  passeggiate, ma questo &egrave; dovuto in parte alla poca
-	  posibilit&agrave; di muoversi in canile.
-	  Bisognoso di coccole.
-	  Pu&ograve; essere tenuto sia in casa che in giardino.
-	</div>
+        <div>Labrador miele<br/>
+          Nato nel 2011 quindi giovanissimo, molto dolce ed affettuoso
+          come tutti i labrador. E' adatto a persone dinamiche
+          perch&egrave; ama le lunghe passeggiate e ha bisogno di
+          sfogare la sua esuberanza.
+          Ho solo bisogno di essere educato a non tirare durante le
+          passeggiate, ma questo &egrave; dovuto in parte alla poca
+          posibilit&agrave; di muoversi in canile.
+          Bisognoso di coccole.
+          Pu&ograve; essere tenuto sia in casa che in giardino.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

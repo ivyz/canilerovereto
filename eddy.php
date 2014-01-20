@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,32 +36,32 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Eddy</h1>
-	<img id="bigimage" src="img/eddy1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Eddy</h1>
+        <img id="bigimage" src="img/eddy1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/eddy1.jpg" height="90" width="120" alt="camera" onclick="changeImage('eddy1')"/>
-	<img src="img/eddy2.jpg" height="90" width="120" alt="camera" onclick="changeImage('eddy2')"/>
-	<img src="img/eddy3.jpg" height="90" width="120" alt="camera" onclick="changeImage('eddy3')"/>
-	<hr>
+        <img src="img/eddy1.jpg" height="90" width="120" alt="camera" onclick="changeImage('eddy1')"/>
+        <img src="img/eddy2.jpg" height="90" width="120" alt="camera" onclick="changeImage('eddy2')"/>
+        <img src="img/eddy3.jpg" height="90" width="120" alt="camera" onclick="changeImage('eddy3')"/>
+        <hr>
 
-	<div>Grande cane da pastore. <br/>
-	  Nato circa nel 2010 &egrave; un giovane e vivace gigante buono. 
-	  Ha dimostrato di non adattarsi bene al cambiamento di un'adozione,
-	  per questo consigliamo degli incontri conoscitivi.
-	  Ama le passeggiate e non soffrendo il freddo consigliamo di
-	  tenerlo in un giardino.
-	  Adatto a persone dinamiche che per&ograve; abbiano la
-	  pazienza di rispettare i suoi tempi e siano disposte ad
-	  effettuare una preadozione.
-	  In canile dimostra di essere equilibrato, tranquillo, anche
-	  con altri cani e molto dolce.
-	</div>
+        <div>Grande cane da pastore. <br/>
+          Nato circa nel 2010 &egrave; un giovane e vivace gigante buono.
+          Ha dimostrato di non adattarsi bene al cambiamento di un'adozione,
+          per questo consigliamo degli incontri conoscitivi.
+          Ama le passeggiate e non soffrendo il freddo consigliamo di
+          tenerlo in un giardino.
+          Adatto a persone dinamiche che per&ograve; abbiano la
+          pazienza di rispettare i suoi tempi e siano disposte ad
+          effettuare una preadozione.
+          In canile dimostra di essere equilibrato, tranquillo, anche
+          con altri cani e molto dolce.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

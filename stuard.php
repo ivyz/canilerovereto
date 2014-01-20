@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,28 +36,28 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Stuard</h1>
-	<img id="bigimage" src="img/stuard1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Stuard</h1>
+        <img id="bigimage" src="img/stuard1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/stuard1.jpg" height="90" width="120" alt="camera" onclick="changeImage('stuard1')"/>
-	<img src="img/stuard2.jpg" height="90" width="120" alt="camera" onclick="changeImage('stuard2')"/>
-	<img src="img/stuard3.jpg" height="90" width="120" alt="camera" onclick="changeImage('stuard3')"/>
-	<hr>
+        <img src="img/stuard1.jpg" height="90" width="120" alt="camera" onclick="changeImage('stuard1')"/>
+        <img src="img/stuard2.jpg" height="90" width="120" alt="camera" onclick="changeImage('stuard2')"/>
+        <img src="img/stuard3.jpg" height="90" width="120" alt="camera" onclick="changeImage('stuard3')"/>
+        <hr>
 
-	<div>Anziano ma dolce<br/>
-	  Nato nel 2003	&egrave; dolcissimo e molto affettuoso.
-	  Deve essere trattato con rispetto e non deve essere
-	  sforzato nelle passeggiate.
-	  Non ci vede molto bene per questo &egrave; sconsigliato per
-	  una famiglia con bambini.
-	  Adattissimo agli anziani, ama i biscotti.
-	</div>
+        <div>Anziano ma dolce<br/>
+          Nato nel 2003	&egrave; dolcissimo e molto affettuoso.
+          Deve essere trattato con rispetto e non deve essere
+          sforzato nelle passeggiate.
+          Non ci vede molto bene per questo &egrave; sconsigliato per
+          una famiglia con bambini.
+          Adattissimo agli anziani, ama i biscotti.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

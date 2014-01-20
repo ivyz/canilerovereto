@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,27 +36,27 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Black</h1>
-	<img id="bigimage" src="img/black1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Black</h1>
+        <img id="bigimage" src="img/black1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/black1.jpg" height="90" width="120" alt="camera" onclick="changeImage('black1')"/>
-	<img src="img/black2.jpg" height="90" width="120" alt="camera" onclick="changeImage('black2')"/>
-	<img src="img/black3.jpg" height="90" width="120" alt="camera" onclick="changeImage('black3')"/>
-	<hr>
+        <img src="img/black1.jpg" height="90" width="120" alt="camera" onclick="changeImage('black1')"/>
+        <img src="img/black2.jpg" height="90" width="120" alt="camera" onclick="changeImage('black2')"/>
+        <img src="img/black3.jpg" height="90" width="120" alt="camera" onclick="changeImage('black3')"/>
+        <hr>
 
-	<div>Black, nero<br/>
-	  Molto docile ed affettuoso ma deve essere trattato con
-	  rispetto e responsabilit&agrave;. E' decisamente un cane da
-	  appartamento, non adatto a bambini ed anziani.
-	  Necessita di incontri conoscitivi.
-	  Molto bravo al guinzaglio, &egrave; nato circa nel 2006.
-	</div>
+        <div>Black, nero<br/>
+          Molto docile ed affettuoso ma deve essere trattato con
+          rispetto e responsabilit&agrave;. E' decisamente un cane da
+          appartamento, non adatto a bambini ed anziani.
+          Necessita di incontri conoscitivi.
+          Molto bravo al guinzaglio, &egrave; nato circa nel 2006.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

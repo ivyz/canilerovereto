@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,34 +36,34 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Rodolph</h1>
-	<img id="bigimage" src="img/rodolph1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Rodolph</h1>
+        <img id="bigimage" src="img/rodolph1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/rodolph1.jpg" height="90" width="120" alt="camera" onclick="changeImage('rodolph1')"/>
-	<img src="img/rodolph2.jpg" height="90" width="120" alt="camera" onclick="changeImage('rodolph2')"/>
-	<img src="img/rodolph3.jpg" height="90" width="120" alt="camera" onclick="changeImage('rodolph3')"/>
-	<hr>
+        <img src="img/rodolph1.jpg" height="90" width="120" alt="camera" onclick="changeImage('rodolph1')"/>
+        <img src="img/rodolph2.jpg" height="90" width="120" alt="camera" onclick="changeImage('rodolph2')"/>
+        <img src="img/rodolph3.jpg" height="90" width="120" alt="camera" onclick="changeImage('rodolph3')"/>
+        <hr>
 
-	<div>Giovane incrocio lupo/husky. <br/>
-	  Nato nel maggio 2011, attualmente è in fase di recupero per
-	  via della sua timidezza. E' molto meno pauroso del fratello
-	  Marton.
-	  Necessita di preadozione e pazienza.
+        <div>Giovane incrocio lupo/husky. <br/>
+          Nato nel maggio 2011, attualmente è in fase di recupero per
+          via della sua timidezza. E' molto meno pauroso del fratello
+          Marton.
+          Necessita di preadozione e pazienza.
           Starebbe bene in giardino, o comunque all'esterno ma
-	  dev'essere un posto tranquillo, preferibilmente non in città.
+          dev'essere un posto tranquillo, preferibilmente non in città.
           Non adatto a famiglie con bambini. L'importante è che sia
-	  rispettato, ha un carattere indipendente.
-	  Fino al ritrovamento assieme al fratello Marton ha vissuto
-	  allo stato selvatico, per questo &egrave; diffidente nei
-	  confronti degli esseri umani.
-	  Essendo molto giovane sar&agrave; scuramente recuperato.
-	</div>
+          rispettato, ha un carattere indipendente.
+          Fino al ritrovamento assieme al fratello Marton ha vissuto
+          allo stato selvatico, per questo &egrave; diffidente nei
+          confronti degli esseri umani.
+          Essendo molto giovane sar&agrave; scuramente recuperato.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

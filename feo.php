@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,26 +36,26 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Feo</h1>
-	<img id="bigimage" src="img/feo1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Feo</h1>
+        <img id="bigimage" src="img/feo1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/feo1.jpg" height="90" width="120" alt="camera" onclick="changeImage('feo1')"/>
-	<img src="img/feo2.jpg" height="90" width="120" alt="camera" onclick="changeImage('feo2')"/>
-	<img src="img/feo3.jpg" height="90" width="120" alt="camera" onclick="changeImage('feo3')"/>
-	<hr>
+        <img src="img/feo1.jpg" height="90" width="120" alt="camera" onclick="changeImage('feo1')"/>
+        <img src="img/feo2.jpg" height="90" width="120" alt="camera" onclick="changeImage('feo2')"/>
+        <img src="img/feo3.jpg" height="90" width="120" alt="camera" onclick="changeImage('feo3')"/>
+        <hr>
 
-	<div>Sanbernardo stupendo<br/>
-	  Nato nel 2005, non &egrave; atualmente adottabile in quanto
-	  non ha ricevuto gli insegnamenti di socializzazione
-	  primaria.
-	  Ceduto alla struttura da poco.
-	</div>
+        <div>Sanbernardo stupendo<br/>
+          Nato nel 2005, non &egrave; atualmente adottabile in quanto
+          non ha ricevuto gli insegnamenti di socializzazione
+          primaria.
+          Ceduto alla struttura da poco.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

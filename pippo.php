@@ -11,7 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-      padding-top: 40px;
+      padding-top: 80px;
       padding-bottom: 40px;
       }
     </style>
@@ -22,7 +22,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     function changeImage(image)	{
-	document.getElementById('bigimage').src = 'img/'+image+'.jpg';
+        document.getElementById('bigimage').src = 'img/'+image+'.jpg';
     }
     </script>
 
@@ -36,27 +36,27 @@
 
   <body>
       <div class="container">
-	<?php include 'header.php'; ?>
-	<h1 class="title">Pippo</h1>
-	<img id="bigimage" src="img/pippo1.jpg" height="330" width="550" alt="camera"/>
+        <?php include 'header.php'; ?>
+        <h1 class="title">Pippo</h1>
+        <img id="bigimage" src="img/pippo1.jpg" height="330" width="550" alt="camera"/>
 
-	<img src="img/pippo1.jpg" height="90" width="120" alt="camera" onclick="changeImage('pippo1')"/>
-	<img src="img/pippo2.jpg" height="90" width="120" alt="camera" onclick="changeImage('pippo2')"/>
-	<img src="img/pippo3.jpg" height="90" width="120" alt="camera" onclick="changeImage('pippo3')"/>
-	<hr>
+        <img src="img/pippo1.jpg" height="90" width="120" alt="camera" onclick="changeImage('pippo1')"/>
+        <img src="img/pippo2.jpg" height="90" width="120" alt="camera" onclick="changeImage('pippo2')"/>
+        <img src="img/pippo3.jpg" height="90" width="120" alt="camera" onclick="changeImage('pippo3')"/>
+        <hr>
 
-	<div>Gigante gentile<br/>
-	  Nato nel maggio 2007, attualmente è in fase di recupero, ma
-	  dimostra di essere molto dolce con chi conosce.
-	  E' di taglia molto grande, quindi quando sar&agrave;
-	  recuperato necessiter&agrave; di una famiglia con delle
-	  persone che siano in grado di gestirlo.
-	</div>
+        <div>Gigante gentile<br/>
+          Nato nel maggio 2007, attualmente è in fase di recupero, ma
+          dimostra di essere molto dolce con chi conosce.
+          E' di taglia molto grande, quindi quando sar&agrave;
+          recuperato necessiter&agrave; di una famiglia con delle
+          persone che siano in grado di gestirlo.
+        </div>
 
-	<hr>
-	
+        <hr>
+
       <?php include 'footer.php'; ?>
 
-	</div>
+        </div>
   </body>
 </html>

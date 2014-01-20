@@ -80,6 +80,7 @@ function curPageName() {
   }
  ?>
 <a href="advice.php" class="big">Consigli</a></li>
+<li><a href="news.php"><img src="img/newsico.png"/></a></li>
   </ul>
         <!--<form class="navbar-form pull-right">
             <input class="span2" type="text" placeholder="Email">
